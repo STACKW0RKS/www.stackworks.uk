@@ -1,3 +1,11 @@
+body {
+    background: linear-gradient(to right, #070000, #4C0001, #070000);
+    font-family: "Roboto", sans-serif;
+}
+
 h1 {
-    color: darkmagenta;
+    text-align: center;
+    color: white;
+    width: 600px;
+    margin: 100px auto;
 }
