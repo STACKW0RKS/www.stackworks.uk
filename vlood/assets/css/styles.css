@@ -1,3 +1,13 @@
 body {
-    font-family: "Raleway", sans-serif;
+    background: linear-gradient(to right, #070000, #4C0001, #070000);
+    font-family: "Roboto", sans-serif;
+}
+
+.container:first-of-type {
+    margin-top: 100px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
 }
