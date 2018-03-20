@@ -3,12 +3,13 @@ body {
 }
 
 nav div.container-fluid:first-of-type {
-    width: 75%;
+    width: 80%;
 }
 
 #logo {
-    width: 25px;
-    margin-right: 5px;
+    box-sizing: border-box;
+    width: 30px;
+    margin: 0px 5px 1px 0px;
 }
 
 body div.container div.jumbotron:first-of-type {
