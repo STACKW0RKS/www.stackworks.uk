@@ -2,8 +2,8 @@ var senderNames = ["Foo", "Bar"];
 var recipientNames = ["Andreas", "Iida", "Kacper", "Ryan", "Vlad"];
 
 var startersFirst = ["Please", "Kindly", "Amiably"];
-var nounsFirst = ["API", "database", "SDLC"];
-var verbsFirst = ["leverage", "write", "drill down"];
+var nounsFirst = ["API", "database", "SDLC", "production servers", "rollout"];
+var verbsFirst = ["leverage", "write", "drill down", "overwrite", "override", "embed"];
 
 var startersSecond = ["This", "Doing so"];
 var nounsSecond = ["action items", "quarterly expectations", "issues", "vertical growth", "spreadsheets"];
