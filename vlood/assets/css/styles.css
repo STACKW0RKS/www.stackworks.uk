@@ -19,3 +19,8 @@ body div.container div.jumbotron:first-of-type {
 #soon {
     text-align: center;
 }
+
+#clue {
+    margin-left: 25px;
+    color: #FFFFFF;
+}
