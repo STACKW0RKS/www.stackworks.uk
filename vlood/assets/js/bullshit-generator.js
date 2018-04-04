@@ -1,3 +1,6 @@
+// Could use this, to add words to the dictionary: http://www.bullshitbingo.net/cards/bullshit/
+// Don't forget: blocker, extrapolate...
+
 var senderNames = ["Foo", "Bar"];
 var recipientNames = ["Andreas", "Iida", "Kacper", "Ryan", "Vlad"];
 
