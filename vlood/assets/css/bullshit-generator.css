@@ -13,6 +13,7 @@ body {
 }
 
 .container-lg {
+    background: #F4F4F4;
     width: 35%;
     height: 300px;
     margin: 100px auto 0px auto;
@@ -30,4 +31,5 @@ button {
     color: #0088FF;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
 }

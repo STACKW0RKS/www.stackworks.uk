@@ -1,26 +1,25 @@
 // Could use this, to add words to the dictionary: http://www.bullshitbingo.net/cards/bullshit/
-// Don't forget: blocker, extrapolate...
 
 var senderNames = ["Foo", "Bar"];
-var recipientNames = ["Andreas", "Iida", "Kacper", "Ryan", "Vlad"];
+var recipientNames = ["Andreas", "Iida", "James", "Kacper", "Ryan", "Sabria", "Simon", "Vlad"];
 
 var startersFirst = ["Please", "Kindly", "Amiably"];
 var nounsFirst = ["API", "database", "SDLC", "production servers", "rollout"];
 var verbsFirst = ["leverage", "write", "drill down", "overwrite", "override", "embed"];
 
 var startersSecond = ["This", "Doing so"];
-var nounsSecond = ["action items", "quarterly expectations", "issues", "vertical growth", "spreadsheets"];
-var verbsSecond = ["integrate", "evaluate"];
+var nounsSecond = ["action items", "quarterly expectations", "issues", "vertical growth", "spreadsheets", "blockers"];
+var verbsSecond = ["integrate", "evaluate", "extrapolate", "streamline"];
 
 var startersThird = ["Finally", "Last but not least", "Lastly"];
-var nounsThird = ["client commitments", "SWOT analysis", "GAP analysis"];
-var verbsThird = ["report on", "query", "establish"];
+var nounsThird = ["client commitments", "SWOT analysis", "GAP analysis", "metrics", "ingest automation", "omni-channel experience"];
+var verbsThird = ["report on", "query", "establish", "data mine", "monetize on"];
 
-var determiners = ["the", "our"];
-var adverbs = ["gracefully", "precisely", "continuously", "diligently"];
+var determiners = ["the", "our", "the", "our", "the", "our", "the", "our", "the aforementioned", "the hereinafter"]; /* 80% simple determiners, 20% complex determiners */
+var adverbs = ["gracefully", "precisely", "continuously", "diligently", "proactively"];
 var prepositions = ["down", "into", "up", "on", "upon", "below", "above", "through", "across", "towards"];
 
-var reasons = ["so that we can", "which would enable us to", "which in turn would"];
+var reasons = ["so that we can", "which would enable us to", "which in turn would", "which is a mission critical factor if we want to", "which enables thinking outside the box if we wish to"];
 var probabilities = ["would", "could", "should"];
 var times = ["going forward", "in the next trimester", "for the foreseeable future"];
 var conditionalStart = ["if you could", "if you would be so kind as to"];
