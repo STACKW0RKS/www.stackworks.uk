@@ -1,15 +1,21 @@
+@import url("karbon.css");
+
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: "Karbon-Regular", sans-serif;
 }
 
 nav div.container-fluid:first-of-type {
     width: 80%;
 }
 
+.navbar-brand {
+    padding: 0px;
+    height: 38px;
+}
+
 #logo {
     box-sizing: border-box;
-    width: 30px;
-    margin: 0px 5px 1px 0px;
+    height: 38px;
 }
 
 body div.container div.jumbotron:first-of-type {
@@ -18,9 +24,9 @@ body div.container div.jumbotron:first-of-type {
 
 #soon {
     text-align: center;
+    font-family: Karbon-Medium;
 }
 
-#clue {
-    margin-left: 25px;
-    color: #FFFFFF;
+.navbar.fixed-bottom div p {
+    margin: 8px 0px 8px 0px;
 }

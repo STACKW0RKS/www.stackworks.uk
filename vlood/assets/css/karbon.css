@@ -1,0 +1,69 @@
+@font-face {
+    font-family: "Karbon-Hairline";
+    src: url("../fonts/karbon/Karbon-Hairline.woff") format("woff"), url("../fonts/karbon/Karbon-Hairline.otf") format("otf");
+}
+
+@font-face {
+    font-family: "Karbon-HairlineItalic";
+    src: url("../fonts/karbon/Karbon-HairlineItalic.woff") format("woff"), url("../fonts/karbon/Karbon-HairlineItalic.otf") format("otf");
+}
+
+@font-face {
+    font-family: "Karbon-Thin";
+    src: url("../fonts/karbon/Karbon-Thin.woff") format("woff"), url("../fonts/karbon/Karbon-Thin.otf") format("otf");
+}
+
+@font-face {
+    font-family: "Karbon-ThinItalic";
+    src: url("../fonts/karbon/Karbon-ThinItalic.woff") format("woff"), url("../fonts/karbon/Karbon-ThinItalic.otf") format("otf");
+}
+
+@font-face {
+    font-family: "Karbon-Light";
+    src: url("../fonts/karbon/Karbon-Light.woff") format("woff"), url("../fonts/karbon/Karbon-Light.otf") format("otf");
+}
+
+@font-face {
+    font-family: "Karbon-LightItalic";
+    src: url("../fonts/karbon/Karbon-LightItalic.woff") format("woff"), url("../fonts/karbon/Karbon-LightItalic.otf") format("otf");
+}
+
+@font-face {
+    font-family: "Karbon-Regular";
+    src: url("../fonts/karbon/Karbon-Regular.woff") format("woff"), url("../fonts/karbon/Karbon-Regular.otf") format("otf");
+}
+
+@font-face {
+    font-family: "Karbon-RegularItalic";
+    src: url("../fonts/karbon/Karbon-RegularItalic.woff") format("woff"), url("../fonts/karbon/Karbon-RegularItalic.otf") format("otf");
+}
+
+@font-face {
+    font-family: "Karbon-Medium";
+    src: url("../fonts/karbon/Karbon-Medium.woff") format("woff"), url("../fonts/karbon/Karbon-Medium.otf") format("otf");
+}
+
+@font-face {
+    font-family: "Karbon-MediumItalic";
+    src: url("../fonts/karbon/Karbon-MediumItalic.woff") format("woff"), url("../fonts/karbon/Karbon-MediumItalic.otf") format("otf");
+}
+
+@font-face {
+    font-family: "Karbon-Semibold";
+    src: url("../fonts/karbon/Karbon-Semibold.woff") format("woff"), url("../fonts/karbon/Karbon-Semibold.otf") format("otf");
+}
+
+@font-face {
+    font-family: "Karbon-SemiboldItalic";
+    src: url("../fonts/karbon/Karbon-SemiboldItalic.woff") format("woff"), url("../fonts/karbon/Karbon-SemiboldItalic.otf") format("otf");
+}
+
+@font-face {
+    font-family: "Karbon-Bold";
+    src: url("../fonts/karbon/Karbon-Bold.woff") format("woff"), url("../fonts/karbon/Karbon-Bold.otf") format("otf");
+}
+
+@font-face {
+    font-family: "Karbon-BoldItalic";
+    src: url("../fonts/karbon/Karbon-BoldItalic.woff") format("woff"), url("../fonts/karbon/Karbon-BoldItalic.otf") format("otf");
+}
