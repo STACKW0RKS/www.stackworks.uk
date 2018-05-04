@@ -307,7 +307,7 @@ svg:not(:root).svg-inline--fa {
 .fa-stack-1x,
 .fa-stack-2x {
   bottom: 0;
-  left: 0;
+  left: 1px; /* Custom Tweak */
   margin: auto;
   position: absolute;
   right: 0;
