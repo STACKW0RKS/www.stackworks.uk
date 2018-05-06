@@ -10,12 +10,14 @@ $(function animateTimeline() {
         // Move timeline panels to the edges of the viewport and make them transparent.
         $("div.timeline-panel-left").css({
             "transform": "translate(-280px, 0px)",
-            "opacity": "0.15"
+            "opacity": "0.15",
+            "filter": "blur(5px)"
         });
 
         $("div.timeline-panel-right").css({
             "transform": "translate(280px, 0px)",
-            "opacity": "0.15"
+            "opacity": "0.15",
+            "filter": "blur(5px)"
         });
 
         // Initialize the ScrollMagic controller.
@@ -29,11 +31,13 @@ $(function animateTimeline() {
 
         var tweenPanelLeft = TweenMax.staggerTo("div.timeline-panel-left", 0.75, {
             opacity: 1,
+            filter: "blur(0px)",
             left: 250
         }, 1.75);
 
         var tweenPanelRight = TweenMax.staggerTo("div.timeline-panel-right", 0.75, {
             opacity: 1,
+            filter: "blur(0px)",
             right: 250
         }, 1.75);
 
