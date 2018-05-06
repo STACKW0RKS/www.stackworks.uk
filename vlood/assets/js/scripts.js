@@ -3,9 +3,9 @@ $(function documentReady() {
     console.log("The DOM Is Ready!");
 });
 
-// Animate the timeline, if the viewport is large enough.
+// Animate the timeline on the About page, if the viewport is large enough.
 $(function animateTimeline() {
-    if ($(window).width() >= 760) {
+    if ($("body").attr("id") === "about" && $(window).width() >= 760) {
 
         // Move timeline panels to the edges of the viewport and make them transparent.
         $("div.timeline-panel-left").css({
