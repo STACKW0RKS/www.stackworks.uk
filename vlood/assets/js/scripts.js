@@ -1,7 +1,7 @@
 // Write a message to the console once the DOM is ready.
-$(function documentReady() {
-    console.log("The DOM Is Ready!");
-});
+// $(function documentReady() {
+//     console.log("The DOM Is Ready!");
+// });
 
 // Animate the timeline on the About page, if the viewport is large enough.
 $(function animateTimeline() {
