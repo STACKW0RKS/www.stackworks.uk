@@ -50,12 +50,13 @@ $(function animateTimeline() {
         // Create the ScrollMagic scene, specify which GSAP animation to execute, and add the scene to the ScrollMagic controller.
         var scene = new ScrollMagic.Scene({
                 triggerElement: "ul.timeline",
+                offset: -100,
                 duration: $("ul.timeline").height()
             })
             .setTween(timeline)
             .addTo(scrollMagicController);
 
         // Add ScrollMagic debug indicators, fixed on the right side.
-        // scene.addIndicators();
+        scene.addIndicators();
     }
 });
