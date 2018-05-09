@@ -7,7 +7,11 @@
 $(function animateTimeline() {
     if ($("body").attr("id") === "about" && $(window).width() >= 760) {
 
-        // Move timeline panels to the edges of the viewport and make them transparent.
+        // Set up elements to be in initial state. This is not done in the CSS so that it's skipped if the viewport is narrower than 760px.
+        $("div.timeline-badge").css({
+            "filter": "blur(2px)"
+        });
+
         $("div.timeline-panel-left").css({
             "transform": "translate(-280px, 0px)",
             "opacity": "0.15",
@@ -25,9 +29,10 @@ $(function animateTimeline() {
 
         // Create GSAP animations for the badges and the left/righ panels.
         var tweenBadge = TweenMax.staggerTo("div.timeline-badge", 0.75, {
+            filter: "blur(0px)",
             scale: 2,
             rotation: 360
-        }, 1);
+        }, 0.9);
 
         var tweenPanelLeft = TweenMax.staggerTo("div.timeline-panel-left", 0.75, {
             opacity: 1,
@@ -45,12 +50,12 @@ $(function animateTimeline() {
         var timeline = new TimelineMax();
         timeline.add(tweenBadge, 0);
         timeline.add(tweenPanelLeft, 0);
-        timeline.add(tweenPanelRight, 0.5);
+        timeline.add(tweenPanelRight, 1);
 
         // Create the ScrollMagic scene, specify which GSAP animation to execute, and add the scene to the ScrollMagic controller.
         var scene = new ScrollMagic.Scene({
                 triggerElement: "ul.timeline",
-                offset: -100,
+                offset: -175,
                 duration: $("ul.timeline").height()
             })
             .setTween(timeline)

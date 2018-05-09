@@ -2,17 +2,19 @@
     list-style: none;
     padding: 20px 0 20px;
     position: relative;
+    margin-bottom: 275px; /* needed for the animation to complete; can be removed if other elements are present after the timeline */
 }
 
 .timeline:before {
-    top: 0;
-    bottom: 0;
+    top: 55px;
+    bottom: 215px;
     position: absolute;
     content: " ";
     width: 3px;
-    background-color: #eeeeee;
+    background-color: #cccccc;
     left: 50%;
     margin-left: -1.5px;
+    filter: blur(2.5px);
 }
 
 .timeline>li {
