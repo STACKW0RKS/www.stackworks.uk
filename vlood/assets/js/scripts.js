@@ -14,13 +14,13 @@ $(function animateTimeline() {
 
         $("div.timeline-panel-left").css({
             "transform": "translate(-280px, 0px)",
-            "opacity": "0.15",
+            "opacity": "0.75",
             "filter": "blur(5px)"
         });
 
         $("div.timeline-panel-right").css({
             "transform": "translate(280px, 0px)",
-            "opacity": "0.15",
+            "opacity": "0.75",
             "filter": "blur(5px)"
         });
 
@@ -50,7 +50,7 @@ $(function animateTimeline() {
         var timeline = new TimelineMax();
         timeline.add(tweenBadge, 0);
         timeline.add(tweenPanelLeft, 0);
-        timeline.add(tweenPanelRight, 1);
+        timeline.add(tweenPanelRight, 0.95);
 
         // Create the ScrollMagic scene, specify which GSAP animation to execute, and add the scene to the ScrollMagic controller.
         var scene = new ScrollMagic.Scene({
