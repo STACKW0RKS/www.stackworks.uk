@@ -1,0 +1,28 @@
+#zalgo_container {
+    WIDTH: 550px;
+    BORDER-RIGHT: black 2px solid;
+    PADDING-RIGHT: 50px;
+    BORDER-TOP: black 2px solid;
+    PADDING-LEFT: 50px;
+    PADDING-BOTTOM: 50px;
+    BORDER-LEFT: black 2px solid;
+    PADDING-TOP: 50px;
+    BORDER-BOTTOM: black 2px solid
+}
+
+.zalgo_td {
+    BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    FONT-SIZE: 32px;
+    BORDER-LEFT: black 1px solid;
+    WIDTH: 48px;
+    BORDER-BOTTOM: black 1px solid;
+    TEXT-ALIGN: center
+}
+
+.zalgo_ref_table {
+    BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    BORDER-LEFT: black 1px solid;
+    BORDER-BOTTOM: black 1px solid
+}
