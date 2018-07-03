@@ -17,7 +17,17 @@ var zalgo_up = [
     '\u0309', /*     ̉     */ '\u0363', /*     ͣ     */ '\u0364', /*     ͤ     */ '\u0365', /*     ͥ     */
     '\u0366', /*     ͦ     */ '\u0367', /*     ͧ     */ '\u0368', /*     ͨ     */ '\u0369', /*     ͩ     */
     '\u036a', /*     ͪ     */ '\u036b', /*     ͫ     */ '\u036c', /*     ͬ     */ '\u036d', /*     ͭ     */
-    '\u0346', /*     ͆     */ '\u031a' /*     ̚     */
+    '\u0346', /*     ͆     */ '\u031a'  /*     ̚     */
+];
+
+//Characters Staying In The Middle
+var zalgo_mid = [
+    '\u0315', /*     ̕     */ '\u031b', /*     ̛     */ '\u0340', /*     ̀     */ '\u0341', /*     ́     */
+    '\u0358', /*     ͘     */ '\u0321', /*     ̡     */ '\u0322', /*     ̢     */ '\u0327', /*     ̧     */
+    '\u0328', /*     ̨     */ '\u0334', /*     ̴     */ '\u0335', /*     ̵     */ '\u0336', /*     ̶     */
+    '\u034f', /*     ͏     */ '\u035c', /*     ͜     */ '\u035d', /*     ͝     */ '\u035e', /*     ͞     */
+    '\u035f', /*     ͟     */ '\u0360', /*     ͠     */ '\u0362', /*     ͢     */ '\u0338', /*     ̸     */
+    '\u0337', /*     ̷     */ '\u0361', /*     ͡     */ '\u0489'  /*     ҉_   */
 ];
 
 //Characters Going Downwards
@@ -31,17 +41,7 @@ var zalgo_down = [
     '\u033a', /*     ̺     */ '\u033b', /*     ̻     */ '\u033c', /*     ̼     */ '\u0345', /*     ͅ     */
     '\u0347', /*     ͇     */ '\u0348', /*     ͈     */ '\u0349', /*     ͉     */ '\u034d', /*     ͍     */
     '\u034e', /*     ͎     */ '\u0353', /*     ͓     */ '\u0354', /*     ͔     */ '\u0355', /*     ͕     */
-    '\u0356', /*     ͖     */ '\u0359', /*     ͙     */ '\u035a', /*     ͚     */ '\u0323' /*     ̣     */
-];
-
-//Characters Staying In The Middle
-var zalgo_mid = [
-    '\u0315', /*     ̕     */ '\u031b', /*     ̛     */ '\u0340', /*     ̀     */ '\u0341', /*     ́     */
-    '\u0358', /*     ͘     */ '\u0321', /*     ̡     */ '\u0322', /*     ̢     */ '\u0327', /*     ̧     */
-    '\u0328', /*     ̨     */ '\u0334', /*     ̴     */ '\u0335', /*     ̵     */ '\u0336', /*     ̶     */
-    '\u034f', /*     ͏     */ '\u035c', /*     ͜     */ '\u035d', /*     ͝     */ '\u035e', /*     ͞     */
-    '\u035f', /*     ͟     */ '\u0360', /*     ͠     */ '\u0362', /*     ͢     */ '\u0338', /*     ̸     */
-    '\u0337', /*     ̷     */ '\u0361', /*     ͡     */ '\u0489' /*     ҉_   */
+    '\u0356', /*     ͖     */ '\u0359', /*     ͙     */ '\u035a', /*     ͚     */ '\u0323'  /*     ̣     */
 ];
 
 //=====================================================================================================
@@ -88,7 +88,7 @@ function draw_zalgo_table(elid) {
     var container = document.getElementById(elid);
     var html = '';
 
-    html += '<b>Chars going up:</b><br />\n';
+    html += '<b>Characters Going Upwards:</b><br />\n';
     html += '<table class="zalgo_ref_table">\n';
     html += '<tr>\n';
     for (var i = 0; i < zalgo_up.length; i++) {
@@ -99,7 +99,7 @@ function draw_zalgo_table(elid) {
     html += '</tr>\n';
     html += '</table>\n';
 
-    html += '<br /><b>Chars staying in the middle:</b><br />\n';
+    html += '<br /><b>Characters Staying In The Middle:</b><br />\n';
     html += '<table class="zalgo_ref_table">\n';
     html += '<tr>\n';
     for (var i = 0; i < zalgo_mid.length; i++) {
@@ -110,7 +110,7 @@ function draw_zalgo_table(elid) {
     html += '</tr>\n';
     html += '</table>\n';
 
-    html += '<br /><b>Chars going down:</b><br />\n';
+    html += '<br /><b>Characters Going Downwards:</b><br />\n';
     html += '<table class="zalgo_ref_table">\n';
     html += '<tr>\n';
     for (var i = 0; i < zalgo_down.length; i++) {
