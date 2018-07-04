@@ -1,3 +1,19 @@
+body {
+    font-family: "Raleway", sans-serif;
+}
+
+.row {
+    width: 90%;
+    margin: auto;
+}
+
+.col {
+    background: #F4F4F4;
+    border: 1px solid #0088FF;
+    border-radius: 5px;
+    margin: 0px 1%;
+}
+
 #zalgo_container {
     WIDTH: 550px;
     BORDER-RIGHT: black 2px solid;

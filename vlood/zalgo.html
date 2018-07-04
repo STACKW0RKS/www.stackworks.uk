@@ -6,11 +6,24 @@
     <meta charset="UTF-8">
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,700">
-    <link rel="stylesheet" type="text/css" href="assets\css\zalgo.css" />
+ 
+    <script src="assets\js\lib\jquery-3.3.1.js"></script>
+    <script src="assets\js\lib\bootstrap-4.1.0.js"></script>
+    
+    <link rel="stylesheet" href="assets\css\lib\bootstrap-4.1.0.css">
+    <link rel="stylesheet" type="text/css" href="assets\css\zalgo.css">
 </head>
 
 <body>
     <h1>Zalgo Text Generator</h1>
+
+    <div class="jumbotron-fluid">
+        <div class="row">
+            <div class="col">div1</div>
+            <div class="col">div2</div>
+        </div>
+    </div>
+
     <table id="zalgotable">
         <tbody>
             <tr>
@@ -35,7 +48,7 @@
 
                 <td style="BORDER-RIGHT: black 2px solid; BORDER-TOP: black 2px solid; BORDER-LEFT: black 2px solid; BORDER-BOTTOM: black 2px solid"
                     width="450">
-                    <textarea id="zalgo_txt" style="FONT-FAMILY: Times New Roman" rows="13" cols="80">To invoke the hive-mind representing chaos.&#13;&#10;Invoking the feeling of chaos.&#13;&#10;With out order.&#13;&#10;The Nezperdian hive-mind of chaos. Zalgo.&#13;&#10;He who Waits Behind The Wall.&#13;&#10;ZALGO!</textarea>
+                    <textarea id="zalgo_txt">To invoke the hive-mind representing chaos.&#13;&#10;Invoking the feeling of chaos.&#13;&#10;With out order.&#13;&#10;The Nezperdian hive-mind of chaos. Zalgo.&#13;&#10;He who Waits Behind The Wall.&#13;&#10;ZALGO!</textarea>
 
                     <form id="zalgo_form" action="">
                         <input id="zalgo_btn" onclick="zalgo_textarea('zalgo_txt');" value="HE COMES" type="button">
