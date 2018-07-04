@@ -68,6 +68,10 @@ h1 {
     display: inline-block;
 }
 
+.btn:focus {
+    box-shadow: none !important;
+}
+
 .zalgo_td {
     BORDER-RIGHT: black 1px solid;
     BORDER-TOP: black 1px solid;
