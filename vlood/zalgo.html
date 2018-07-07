@@ -48,13 +48,14 @@
                             <span><input id="zalgo_opt_mid" type="checkbox" checked="">Across</span>
                             <span><input id="zalgo_opt_down" type="checkbox" checked="">Downwards</span>
                         </div>
-                        
+
                         <div class="container options radio">
                             <span><input id="zalgo_opt_mini" name="optval" type="radio" checked="">Mild</span>
                             <span><input id="zalgo_opt_normal" name="optval" type="radio">Normal</span>
                             <span><input id="zalgo_opt_maxi" name="optval" type="radio">Strong</span>
                         </div>
                     </div>
+
                     <div class="container-fluid">
                         <input class="btn btn-primary" id="zalgo_btn" onclick="zalgo_textarea('zalgo_txt');" value="HE COMES!" type="button">
                         <input class="btn btn-primary" id="zalgo_ref" style="FLOAT: right" onclick="toggle('reference_sheet');" value="Toggle Reference Sheet" type="button">
@@ -63,161 +64,167 @@
             </div>
         </div>
 
-        <div id="reference_sheet" style="display: none">
-            <h2>Zalgo Characters Reference</h2>
-            <div id="zalgo_ref_tablex">
-                <b>Characters Going Upwards:</b>
-                <table class="zalgo_ref_table">
-                    <tbody>
-                        <tr>
-                            <td class="zalgo_td">̍</td>
-                            <td class="zalgo_td">̎</td>
-                            <td class="zalgo_td">̄</td>
-                            <td class="zalgo_td">̅</td>
-                            <td class="zalgo_td">̿</td>
-                            <td class="zalgo_td">̑</td>
-                            <td class="zalgo_td">̆</td>
-                            <td class="zalgo_td">̐</td>
-                            <td class="zalgo_td">͒</td>
-                            <td class="zalgo_td">͗</td>
-                        </tr>
-                        <tr>
-                            <td class="zalgo_td">͑</td>
-                            <td class="zalgo_td">̇</td>
-                            <td class="zalgo_td">̈</td>
-                            <td class="zalgo_td">̊</td>
-                            <td class="zalgo_td">͂</td>
-                            <td class="zalgo_td">̓</td>
-                            <td class="zalgo_td">̈́</td>
-                            <td class="zalgo_td">͊</td>
-                            <td class="zalgo_td">͋</td>
-                            <td class="zalgo_td">͌</td>
-                        </tr>
-                        <tr>
-                            <td class="zalgo_td">̃</td>
-                            <td class="zalgo_td">̂</td>
-                            <td class="zalgo_td">̌</td>
-                            <td class="zalgo_td">͐</td>
-                            <td class="zalgo_td">̀</td>
-                            <td class="zalgo_td">́</td>
-                            <td class="zalgo_td">̋</td>
-                            <td class="zalgo_td">̏</td>
-                            <td class="zalgo_td">̒</td>
-                            <td class="zalgo_td">̓</td>
-                        </tr>
-                        <tr>
-                            <td class="zalgo_td">̔</td>
-                            <td class="zalgo_td">̽</td>
-                            <td class="zalgo_td">̉</td>
-                            <td class="zalgo_td">ͣ</td>
-                            <td class="zalgo_td">ͤ</td>
-                            <td class="zalgo_td">ͥ</td>
-                            <td class="zalgo_td">ͦ</td>
-                            <td class="zalgo_td">ͧ</td>
-                            <td class="zalgo_td">ͨ</td>
-                            <td class="zalgo_td">ͩ</td>
-                        </tr>
-                        <tr>
-                            <td class="zalgo_td">ͪ</td>
-                            <td class="zalgo_td">ͫ</td>
-                            <td class="zalgo_td">ͬ</td>
-                            <td class="zalgo_td">ͭ</td>
-                            <td class="zalgo_td">ͮ</td>
-                            <td class="zalgo_td">ͯ</td>
-                            <td class="zalgo_td">̾</td>
-                            <td class="zalgo_td">͛</td>
-                            <td class="zalgo_td">͆</td>
-                            <td class="zalgo_td">̚</td>
-                        </tr>
-                    </tbody>
-                </table>
-                <b>Characters Staying In The Middle:</b>
-                <table class="zalgo_ref_table">
-                    <tbody>
-                        <tr>
-                            <td class="zalgo_td">̕</td>
-                            <td class="zalgo_td">̛</td>
-                            <td class="zalgo_td">̀</td>
-                            <td class="zalgo_td">́</td>
-                            <td class="zalgo_td">͘</td>
-                            <td class="zalgo_td">̡</td>
-                            <td class="zalgo_td">̢</td>
-                            <td class="zalgo_td">̧</td>
-                            <td class="zalgo_td">̨</td>
-                            <td class="zalgo_td">̴</td>
-                        </tr>
-                        <tr>
-                            <td class="zalgo_td">̵</td>
-                            <td class="zalgo_td">̶</td>
-                            <td class="zalgo_td">͏</td>
-                            <td class="zalgo_td">͜</td>
-                            <td class="zalgo_td">͝</td>
-                            <td class="zalgo_td">͞</td>
-                            <td class="zalgo_td">͟</td>
-                            <td class="zalgo_td">͠</td>
-                            <td class="zalgo_td">͢</td>
-                            <td class="zalgo_td"≯</td>
-                        </tr>
-                        <tr>
-                            <td class="zalgo_td">̷</td>
-                            <td class="zalgo_td">͡</td>
-                            <td class="zalgo_td">҉</td>
-                        </tr>
-                    </tbody>
-                </table>
-                <b>Characters Going Downwards:</b>
-                <table class="zalgo_ref_table">
-                    <tbody>
-                        <tr>
-                            <td class="zalgo_td">̖</td>
-                            <td class="zalgo_td">̗</td>
-                            <td class="zalgo_td">̘</td>
-                            <td class="zalgo_td">̙</td>
-                            <td class="zalgo_td">̜</td>
-                            <td class="zalgo_td">̝</td>
-                            <td class="zalgo_td">̞</td>
-                            <td class="zalgo_td">̟</td>
-                            <td class="zalgo_td">̠</td>
-                            <td class="zalgo_td">̤</td>
-                        </tr>
-                        <tr>
-                            <td class="zalgo_td">̥</td>
-                            <td class="zalgo_td">̦</td>
-                            <td class="zalgo_td">̩</td>
-                            <td class="zalgo_td">̪</td>
-                            <td class="zalgo_td">̫</td>
-                            <td class="zalgo_td">̬</td>
-                            <td class="zalgo_td">̭</td>
-                            <td class="zalgo_td">̮</td>
-                            <td class="zalgo_td">̯</td>
-                            <td class="zalgo_td">̰</td>
-                        </tr>
-                        <tr>
-                            <td class="zalgo_td">̱</td>
-                            <td class="zalgo_td">̲</td>
-                            <td class="zalgo_td">̳</td>
-                            <td class="zalgo_td">̹</td>
-                            <td class="zalgo_td">̺</td>
-                            <td class="zalgo_td">̻</td>
-                            <td class="zalgo_td">̼</td>
-                            <td class="zalgo_td">ͅ</td>
-                            <td class="zalgo_td">͇</td>
-                            <td class="zalgo_td">͈</td>
-                        </tr>
-                        <tr>
-                            <td class="zalgo_td">͉</td>
-                            <td class="zalgo_td">͍</td>
-                            <td class="zalgo_td">͎</td>
-                            <td class="zalgo_td">͓</td>
-                            <td class="zalgo_td">͔</td>
-                            <td class="zalgo_td">͕</td>
-                            <td class="zalgo_td">͖</td>
-                            <td class="zalgo_td">͙</td>
-                            <td class="zalgo_td">͚</td>
-                            <td class="zalgo_td">̣</td>
-                        </tr>
-                    </tbody>
-                </table>
+        <div class="jumbotron-fluid" id="reference_sheet" style="display: none">
+            <h2>Zalgo Character Reference Sheet</h2>
+            <div class="row" id="zalgo_ref_container">
+                <div class="col">
+                    <div class="ref-header"><b>Characters Going Upwards:</b></div>
+                    <table class="zalgo_ref_table">
+                        <tbody>
+                            <tr>
+                                <td class="zalgo_td">̍</td>
+                                <td class="zalgo_td">̎</td>
+                                <td class="zalgo_td">̄</td>
+                                <td class="zalgo_td">̅</td>
+                                <td class="zalgo_td">̿</td>
+                                <td class="zalgo_td">̑</td>
+                                <td class="zalgo_td">̆</td>
+                                <td class="zalgo_td">̐</td>
+                                <td class="zalgo_td">͒</td>
+                                <td class="zalgo_td">͗</td>
+                            </tr>
+                            <tr>
+                                <td class="zalgo_td">͑</td>
+                                <td class="zalgo_td">̇</td>
+                                <td class="zalgo_td">̈</td>
+                                <td class="zalgo_td">̊</td>
+                                <td class="zalgo_td">͂</td>
+                                <td class="zalgo_td">̓</td>
+                                <td class="zalgo_td">̈́</td>
+                                <td class="zalgo_td">͊</td>
+                                <td class="zalgo_td">͋</td>
+                                <td class="zalgo_td">͌</td>
+                            </tr>
+                            <tr>
+                                <td class="zalgo_td">̃</td>
+                                <td class="zalgo_td">̂</td>
+                                <td class="zalgo_td">̌</td>
+                                <td class="zalgo_td">͐</td>
+                                <td class="zalgo_td">̀</td>
+                                <td class="zalgo_td">́</td>
+                                <td class="zalgo_td">̋</td>
+                                <td class="zalgo_td">̏</td>
+                                <td class="zalgo_td">̒</td>
+                                <td class="zalgo_td">̓</td>
+                            </tr>
+                            <tr>
+                                <td class="zalgo_td">̔</td>
+                                <td class="zalgo_td">̽</td>
+                                <td class="zalgo_td">̉</td>
+                                <td class="zalgo_td">ͣ</td>
+                                <td class="zalgo_td">ͤ</td>
+                                <td class="zalgo_td">ͥ</td>
+                                <td class="zalgo_td">ͦ</td>
+                                <td class="zalgo_td">ͧ</td>
+                                <td class="zalgo_td">ͨ</td>
+                                <td class="zalgo_td">ͩ</td>
+                            </tr>
+                            <tr>
+                                <td class="zalgo_td">ͪ</td>
+                                <td class="zalgo_td">ͫ</td>
+                                <td class="zalgo_td">ͬ</td>
+                                <td class="zalgo_td">ͭ</td>
+                                <td class="zalgo_td">ͮ</td>
+                                <td class="zalgo_td">ͯ</td>
+                                <td class="zalgo_td">̾</td>
+                                <td class="zalgo_td">͛</td>
+                                <td class="zalgo_td">͆</td>
+                                <td class="zalgo_td">̚</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col">
+                    <div class="ref-header"><b>Characters Staying In The Middle:</b></div>
+                    <table class="zalgo_ref_table">
+                        <tbody>
+                            <tr>
+                                <td class="zalgo_td">̕</td>
+                                <td class="zalgo_td">̛</td>
+                                <td class="zalgo_td">̀</td>
+                                <td class="zalgo_td">́</td>
+                                <td class="zalgo_td">͘</td>
+                                <td class="zalgo_td">̡</td>
+                                <td class="zalgo_td">̢</td>
+                                <td class="zalgo_td">̧</td>
+                                <td class="zalgo_td">̨</td>
+                                <td class="zalgo_td">̴</td>
+                            </tr>
+                            <tr>
+                                <td class="zalgo_td">̵</td>
+                                <td class="zalgo_td">̶</td>
+                                <td class="zalgo_td">͏</td>
+                                <td class="zalgo_td">͜</td>
+                                <td class="zalgo_td">͝</td>
+                                <td class="zalgo_td">͞</td>
+                                <td class="zalgo_td">͟</td>
+                                <td class="zalgo_td">͠</td>
+                                <td class="zalgo_td">͢</td>
+                                <td class="zalgo_td"≯</td>
+                            </tr>
+                            <tr>
+                                <td class="zalgo_td">̷</td>
+                                <td class="zalgo_td">͡</td>
+                                <td class="zalgo_td">҉</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col">
+                    <div class="ref-header"><b>Characters Going Downwards:</b></div>
+                    <table class="zalgo_ref_table">
+                        <tbody>
+                            <tr>
+                                <td class="zalgo_td">̖</td>
+                                <td class="zalgo_td">̗</td>
+                                <td class="zalgo_td">̘</td>
+                                <td class="zalgo_td">̙</td>
+                                <td class="zalgo_td">̜</td>
+                                <td class="zalgo_td">̝</td>
+                                <td class="zalgo_td">̞</td>
+                                <td class="zalgo_td">̟</td>
+                                <td class="zalgo_td">̠</td>
+                                <td class="zalgo_td">̤</td>
+                            </tr>
+                            <tr>
+                                <td class="zalgo_td">̥</td>
+                                <td class="zalgo_td">̦</td>
+                                <td class="zalgo_td">̩</td>
+                                <td class="zalgo_td">̪</td>
+                                <td class="zalgo_td">̫</td>
+                                <td class="zalgo_td">̬</td>
+                                <td class="zalgo_td">̭</td>
+                                <td class="zalgo_td">̮</td>
+                                <td class="zalgo_td">̯</td>
+                                <td class="zalgo_td">̰</td>
+                            </tr>
+                            <tr>
+                                <td class="zalgo_td">̱</td>
+                                <td class="zalgo_td">̲</td>
+                                <td class="zalgo_td">̳</td>
+                                <td class="zalgo_td">̹</td>
+                                <td class="zalgo_td">̺</td>
+                                <td class="zalgo_td">̻</td>
+                                <td class="zalgo_td">̼</td>
+                                <td class="zalgo_td">ͅ</td>
+                                <td class="zalgo_td">͇</td>
+                                <td class="zalgo_td">͈</td>
+                            </tr>
+                            <tr>
+                                <td class="zalgo_td">͉</td>
+                                <td class="zalgo_td">͍</td>
+                                <td class="zalgo_td">͎</td>
+                                <td class="zalgo_td">͓</td>
+                                <td class="zalgo_td">͔</td>
+                                <td class="zalgo_td">͕</td>
+                                <td class="zalgo_td">͖</td>
+                                <td class="zalgo_td">͙</td>
+                                <td class="zalgo_td">͚</td>
+                                <td class="zalgo_td">̣</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
 
