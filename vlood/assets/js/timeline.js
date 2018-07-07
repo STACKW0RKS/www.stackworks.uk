@@ -9,7 +9,7 @@ $(function fadeTimeline() {
     var scrollMagicControllerTimeline = new ScrollMagic.Controller();
 
     // Create GSAP animations for the timeline.
-    var tweenTimeline = TweenMax.staggerTo("#timeline-container", 0.1, {
+    var tweenTimeline = TweenMax.staggerTo("#timeline-container", 0.01, {
         opacity: "1",
     });
 
