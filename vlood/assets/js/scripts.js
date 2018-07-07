@@ -62,6 +62,6 @@ $(function animateTimeline() {
             .addTo(scrollMagicController);
 
         // Add ScrollMagic debug indicators, fixed on the right side.
-        scene.addIndicators();
+        // scene.addIndicators();
     }
 });
