@@ -3,7 +3,8 @@ body {
     overflow-y: scroll;
 }
 
-h1 {
+h1,
+h2 {
     color: #0088FF;
     width: 25%;
     margin: 50px auto;
@@ -25,7 +26,7 @@ h1 {
 }
 
 #zalgo_container {
-    padding: 90px 50px 50px 50px;
+    padding: 75px 50px 50px 50px;
     height: 100%;
     width: 100%;
     background: #F4F4F4;
@@ -73,18 +74,12 @@ h1 {
 }
 
 .zalgo_td {
-    BORDER-RIGHT: black 1px solid;
-    BORDER-TOP: black 1px solid;
-    FONT-SIZE: 32px;
-    BORDER-LEFT: black 1px solid;
-    WIDTH: 48px;
-    BORDER-BOTTOM: black 1px solid;
-    TEXT-ALIGN: center
+    font-size: 32px;
+    width: 48px;
+    text-align: center;
+    border: 1px solid #0088FF;
 }
 
 .zalgo_ref_table {
-    BORDER-RIGHT: black 1px solid;
-    BORDER-TOP: black 1px solid;
-    BORDER-LEFT: black 1px solid;
-    BORDER-BOTTOM: black 1px solid
+    display: inline-block;
 }

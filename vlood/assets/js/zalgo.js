@@ -83,47 +83,6 @@ function is_zalgo_char(char) {
     return false;
 }
 
-//Generate Reference Table
-function draw_zalgo_table(elid) {
-    var container = document.getElementById(elid);
-    var html = '';
-
-    html += '<b>Characters Going Upwards:</b><br />\n';
-    html += '<table class="zalgo_ref_table">\n';
-    html += '<tr>\n';
-    for (var i = 0; i < zalgo_up.length; i++) {
-        if (!(i % 10))
-            html += '</tr><tr>';
-        html += '<td class="zalgo_td">' + zalgo_up[i] + '</td>\n';
-    }
-    html += '</tr>\n';
-    html += '</table>\n';
-
-    html += '<br /><b>Characters Staying In The Middle:</b><br />\n';
-    html += '<table class="zalgo_ref_table">\n';
-    html += '<tr>\n';
-    for (var i = 0; i < zalgo_mid.length; i++) {
-        if (!(i % 10))
-            html += '</tr><tr>';
-        html += '<td class="zalgo_td">' + zalgo_mid[i] + '</td>\n';
-    }
-    html += '</tr>\n';
-    html += '</table>\n';
-
-    html += '<br /><b>Characters Going Downwards:</b><br />\n';
-    html += '<table class="zalgo_ref_table">\n';
-    html += '<tr>\n';
-    for (var i = 0; i < zalgo_down.length; i++) {
-        if (!(i % 10))
-            html += '</tr><tr>';
-        html += '<td class="zalgo_td">' + zalgo_down[i] + '</td>\n';
-    }
-    html += '</tr>\n';
-    html += '</table>\n';
-
-    container.innerHTML = html;
-}
-
 //Generate Zalgo Text
 //=====================================================================================================
 function zalgo_textarea(id) {
