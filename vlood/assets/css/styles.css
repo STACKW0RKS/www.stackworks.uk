@@ -1,6 +1,5 @@
 @import url("karbon.css");
 @import url("timeline.css");
-
 body {
     font-family: "Karbon-Regular", sans-serif;
 }
@@ -21,12 +20,16 @@ nav div.container-fluid:first-of-type {
 
 body div.container div.jumbotron:first-of-type {
     margin-top: 100px;
-    padding: 60px;
+    padding: 50px 75px;
 }
 
 #jumbotron-content {
     text-align: center;
     font-size: 1.2rem;
+}
+
+#jumbotron-content p:last-of-type {
+    margin-bottom: 0px;
 }
 
 .navbar.fixed-bottom div p {
