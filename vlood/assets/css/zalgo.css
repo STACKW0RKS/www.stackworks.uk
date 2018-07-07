@@ -48,6 +48,8 @@ h2 {
     width: 48%;
     margin: 20px 1% 15px 1%;
     text-align: center;
+    font-size: 75%;
+    padding: 0px;
 }
 
 .checkbox {

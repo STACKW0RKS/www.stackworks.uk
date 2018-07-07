@@ -1,15 +1,15 @@
-// Could use this, to add words to the dictionary: http://www.bullshitbingo.net/cards/bullshit/
+// Could use this, to add more words to the dictionary: http://www.bullshitbingo.net/cards/bullshit/
 
 var senderNames = ["Foo", "Bar"];
-var recipientNames = ["Andreas", "Iida", "James", "Kacper", "Ryan", "Sabria", "Simon", "Vlad"];
+var recipientNames = ["Andreas", "Colin", "Iida", "James", "Kacper", "Ryan", "Sabria", "Simon", "Vlad"];
 
 var startersFirst = ["Please", "Kindly", "Amiably"];
-var nounsFirst = ["API", "database", "SDLC", "production servers", "rollout"];
+var nounsFirst = ["API", "database", "SDLC", "production servers", "rollout", "virtualization"];
 var verbsFirst = ["leverage", "write", "drill down", "overwrite", "override", "embed"];
 
 var startersSecond = ["This", "Doing so"];
-var nounsSecond = ["action items", "quarterly expectations", "issues", "vertical growth", "spreadsheets", "blockers"];
-var verbsSecond = ["integrate", "evaluate", "extrapolate", "streamline"];
+var nounsSecond = ["action items", "quarterly expectations", "issues", "vertical growth", "spreadsheets", "blockers", "emerging markets"];
+var verbsSecond = ["integrate", "evaluate", "extrapolate", "streamline", "establish ownership of"];
 
 var startersThird = ["Finally", "Last but not least", "Lastly"];
 var nounsThird = ["client commitments", "SWOT analysis", "GAP analysis", "metrics", "ingest automation", "omni-channel experience"];
@@ -21,7 +21,7 @@ var prepositions = ["down", "into", "up", "on", "upon", "below", "above", "throu
 
 var reasons = ["so that we can", "which would enable us to", "which in turn would", "which is a mission critical factor if we want to", "which enables thinking outside the box if we wish to"];
 var probabilities = ["would", "could", "should"];
-var times = ["going forward", "in the next trimester", "for the foreseeable future"];
+var times = ["going forward", "in the next trimester", "for the foreseeable future", "for the upcoming quarter", "by the end of the financial year"];
 var conditionalStart = ["if you could", "if you would be so kind as to"];
 var conditionalEnd = ["that would be great", "that would be highly appreciated"];
 
@@ -29,10 +29,16 @@ var openings = ["Dear", "Hi", "Hello", "Greetings"];
 var closings = ["Kind Regards", "Best Regards", "Sincerely"];
 
 function randomWord(wordSet, ending) {
+    var randomSeedArray = [];
+
+    for (i = 0; i < 100; i++) {
+        randomSeedArray[i] = Math.floor(Math.random() * wordSet.length);
+    }
+
     if (ending == true) {
-        return wordSet[Math.floor(Math.random() * wordSet.length)];
+        return wordSet[randomSeedArray[Math.floor(Math.random() * randomSeedArray.length)]];
     } else {
-        return wordSet[Math.floor(Math.random() * wordSet.length)] + " ";
+        return wordSet[randomSeedArray[Math.floor(Math.random() * randomSeedArray.length)]] + " ";
     }
 }
 
@@ -58,4 +64,4 @@ function generateEmail() {
     document.getElementById('bullshit').innerHTML = randomWord(openings) + randomWord(recipientNames, true) + "," + "<br><br>" + generateContent() + "<br><br>" + randomWord(closings, true) + ",<br>" + randomWord(senderNames);
 };
 
-generateEmail();
+generateEmail()
