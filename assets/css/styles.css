@@ -6,6 +6,7 @@ body {
 
 nav div.container-fluid:first-of-type {
     width: 80%;
+    box-sizing: border-box;
 }
 
 .navbar-brand {
@@ -16,6 +17,13 @@ nav div.container-fluid:first-of-type {
 #logo {
     box-sizing: border-box;
     height: 38px;
+}
+
+#description {
+    color: #ffffff;
+    box-sizing: border-box;
+    padding: 0px;
+    margin-bottom: -30px;
 }
 
 body div.container div.jumbotron:first-of-type {
