@@ -1,2 +1,2 @@
 # StackWorks™ Ltd.
-https://xen0byte.github.io/stackworks/
+https://xen0byte.github.io/StackWorks/
