@@ -2,6 +2,7 @@
 @import url("timeline.css");
 body {
     font-family: "Karbon-Regular", sans-serif;
+    overflow-y: scroll;
 }
 
 nav div.container-fluid:first-of-type {
