@@ -20,13 +20,6 @@ nav div.container-fluid:first-of-type {
     height: 38px;
 }
 
-#description {
-    color: #ffffff;
-    box-sizing: border-box;
-    padding: 0px;
-    margin-bottom: -30px;
-}
-
 body div.container div.jumbotron:first-of-type {
     margin-top: 100px;
     padding: 50px 75px;

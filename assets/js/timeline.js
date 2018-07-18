@@ -27,7 +27,7 @@ $(function fadeTimeline() {
         .triggerHook(0.075);
 
     // Add ScrollMagic debug indicators, fixed on the right side.
-    sceneTimeline.addIndicators();
+    // sceneTimeline.addIndicators();
 });
 
 // Animate the timeline on the About page, if the viewport is large enough.
@@ -89,6 +89,6 @@ $(function animateTimeline() {
             .addTo(scrollMagicController);
 
         // Add ScrollMagic debug indicators, fixed on the right side.
-        scene.addIndicators();
+        // scene.addIndicators();
     }
 });
