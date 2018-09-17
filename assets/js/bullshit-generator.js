@@ -1,7 +1,7 @@
 // Could use this, to add more words to the dictionary: http://www.bullshitbingo.net/cards/bullshit/
 
 var senderNames = ["Foo", "Bar"];
-var recipientNames = ["Andreas", "Colin", "Iida", "James", "Kacper", "Ryan", "Sabria", "Simon", "Vlad"];
+var recipientNames = ["Andreas", "Colin", "Iida", "James", "Kacper", "Laurence", "Ryan", "Sabria", "Simon", "Vlad"];
 
 var startersFirst = ["Please", "Kindly", "Amiably"];
 var nounsFirst = ["API", "database", "SDLC", "production servers", "rollout", "virtualization"];
