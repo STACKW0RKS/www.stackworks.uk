@@ -1,1 +1,1 @@
-// Side-Wide Scripts Go Here
+// Site-Wide Scripts Go Here
