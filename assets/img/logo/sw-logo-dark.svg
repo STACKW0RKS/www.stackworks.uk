@@ -9,14 +9,14 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    inkscape:export-ydpi="96"
    inkscape:export-xdpi="96"
-   inkscape:export-filename="C:\Users\Vlad.MM-SYS\Documents\OneDrive\Projects\001. ePortfolio\vlood\assets\img\logo\sw-logo.png"
-   sodipodi:docname="sw-logo-dark-trademark.svg"
+   inkscape:export-filename="C:\Users\VLOOD\Source\Repos\www.stackworks.online\assets\img\logo\bitmap.png"
+   sodipodi:docname="sw-logo-dark.svg"
    inkscape:version="1.0beta2 (84bf0e8, 2019-12-24)"
    id="svg8"
    version="1.1"
-   viewBox="0 0 296.33334 42.333332"
+   viewBox="0 0 300.56667 42.333332"
    height="160"
-   width="1120">
+   width="1136">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -36,10 +36,10 @@
      inkscape:window-height="1377"
      inkscape:window-width="2560"
      showgrid="false"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g37"
      inkscape:document-units="mm"
      inkscape:cy="80"
-     inkscape:cx="560"
+     inkscape:cx="566"
      inkscape:zoom="1"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
@@ -56,12 +56,12 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
-     transform="translate(-27.507192,-40.888028)"
+     transform="translate(-29.326676,-40.842908)"
      id="layer1"
      inkscape:groupmode="layer"
      inkscape:label="Layer 1">
@@ -78,7 +78,7 @@
            id="tspan3921"
            x="27.549234"
            y="83.136566"
-           style="stroke-width:0.264583">St</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Karbon;-inkscape-font-specification:'Karbon Medium';stroke-width:0.264583">St</tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Karbon;-inkscape-font-specification:Karbon;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
@@ -89,18 +89,18 @@
            id="tspan3925"
            x="40.630367"
            y="83.136566"
-           style="stroke-width:0.264583">ckWorks™</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Karbon;-inkscape-font-specification:'Karbon Medium';stroke-width:0.264583">ckWorks™</tspan></text>
       <g
          id="g4071"
-         transform="translate(-9.6832402e-7,-0.06681738)">
+         transform="translate(-1.1583797e-5)">
         <text
            transform="matrix(0,-1.3218815,0.75649745,0,0,0)"
            id="text4005"
            y="52.509396"
            x="-63.681011"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.78887px;line-height:1.25;font-family:Karbon;-inkscape-font-specification:Karbon;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.194722"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:7.78887px;line-height:1.25;font-family:Karbon;-inkscape-font-specification:'Karbon Medium';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.194722"
            xml:space="preserve"><tspan
-             style="stroke-width:0.194722"
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Karbon;-inkscape-font-specification:'Karbon Medium';stroke-width:0.194722"
              y="52.509396"
              x="-63.681011"
              id="tspan4003"
@@ -110,9 +110,9 @@
            id="text4005-5"
            y="95.144821"
            x="-32.563023"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.16332px;line-height:1.25;font-family:Karbon;-inkscape-font-specification:Karbon;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.104083"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:4.16332px;line-height:1.25;font-family:Karbon;-inkscape-font-specification:'Karbon Medium';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.104083"
            xml:space="preserve"><tspan
-             style="stroke-width:0.104083"
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Karbon;-inkscape-font-specification:'Karbon Medium';stroke-width:0.104083"
              y="95.144821"
              x="-32.563023"
              id="tspan4003-4"
@@ -121,12 +121,12 @@
            transform="matrix(0,-1.648676,0.60654732,0,0,0)"
            id="text4005-9"
            y="64.460304"
-           x="-49.951477"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.24499px;line-height:1.25;font-family:Karbon;-inkscape-font-specification:Karbon;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.156125"
+           x="-49.951466"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:6.24499px;line-height:1.25;font-family:Karbon;-inkscape-font-specification:'Karbon Medium';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.156125"
            xml:space="preserve"><tspan
-             style="stroke-width:0.156125"
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Karbon;-inkscape-font-specification:'Karbon Medium';stroke-width:0.156125"
              y="64.460304"
-             x="-49.951477"
+             x="-49.951466"
              id="tspan4003-7"
              sodipodi:role="line">I</tspan></text>
       </g>
