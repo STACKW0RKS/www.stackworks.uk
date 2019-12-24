@@ -1,0 +1,3 @@
+if the Karbon font is not installed, the SVG logo won't look right
+to fix it, simply install the Karbon font located in "assets\fonts\karbon\"
+you can then edit the SVG with InkScape (or equivalent)
