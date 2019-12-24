@@ -1,13 +1,13 @@
 // Could use this, to add more words to the dictionary: http://www.bullshitbingo.net/cards/bullshit/
 
 var senderNames = ["Foo", "Bar"];
-var recipientNames = ["Andreas", "Colin", "Iida", "James", "Kacper", "Laurence", "Ryan", "Sabria", "Simon", "Vlad"];
+var recipientNames = ["Andreas", "Colin", "Iida", "Kacper", "Laurence", "Preaw", "Ryan", "Sabria", "Vlad"];
 
 var startersFirst = ["Please", "Kindly", "Amiably"];
-var nounsFirst = ["API", "database", "SDLC", "production servers", "rollout", "virtualization"];
+var nounsFirst = ["API", "database", "SDLC", "production servers", "rollout", "virtualization", "client delivery"];
 var verbsFirst = ["leverage", "write", "drill down", "overwrite", "override", "embed"];
 
-var startersSecond = ["This", "Doing so"];
+var startersSecond = ["This approach", "This strategy", "Doing so"];
 var nounsSecond = ["action items", "quarterly expectations", "issues", "vertical growth", "spreadsheets", "blockers", "emerging markets"];
 var verbsSecond = ["integrate", "evaluate", "extrapolate", "streamline", "establish ownership of"];
 
@@ -22,11 +22,11 @@ var prepositions = ["down", "into", "up", "on", "upon", "below", "above", "throu
 var reasons = ["so that we can", "which would enable us to", "which in turn would", "which is a mission critical factor if we want to", "which enables thinking outside the box if we wish to"];
 var probabilities = ["would", "could", "should"];
 var times = ["going forward", "in the next trimester", "for the foreseeable future", "for the upcoming quarter", "by the end of the financial year"];
-var conditionalStart = ["if you could", "if you would be so kind as to"];
-var conditionalEnd = ["that would be great", "that would be highly appreciated"];
+var conditionalStart = ["if you could", "if you would be so kind as to", "if you wouldn't mind to"];
+var conditionalEnd = ["that would be great", "that would be highly appreciated", "that would be very much appreciated"];
 
-var openings = ["Dear", "Hi", "Hello", "Greetings"];
-var closings = ["Kind Regards", "Best Regards", "Sincerely"];
+var openings = ["Dear", "Hi", "Hello", "Greetings", "Good Afternoon"];
+var closings = ["Kind Regards", "Best Regards", "Sincerely", "Thank You In Advance"];
 
 function randomWord(wordSet, ending) {
     var randomSeedArray = [];
