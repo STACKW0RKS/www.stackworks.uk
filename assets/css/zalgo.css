@@ -1,13 +1,13 @@
 body {
     font-family: "Raleway", sans-serif;
     overflow-y: scroll;
-    padding-top: 10px;
+    margin-top: 5%;
     background: #121212;
 }
 
 h1,
 h2 {
-    color: #0088FF;
+    color: #FFFFFF;
     width: 30%;
     margin: 40px auto;
     text-align: center;
@@ -20,7 +20,7 @@ h2 {
 
 .panel {
     background: #F4F4F4;
-    border: 1px solid #0088FF;
+    border: 1px solid #FFFFFF;
     border-radius: 5px;
     margin: 10px 1%;
     height: 400px;
@@ -77,8 +77,12 @@ h2 {
     box-shadow: none !important;
 }
 
+#reference_sheet {
+    margin-top: 2.5%;
+}
+
 .ref-header {
-    color: #0088FF;
+    color: #FFFFFF;
     text-align: center;
 }
 
@@ -89,7 +93,28 @@ table {
 
 .zalgo_td {
     font-size: 24px;
+    color: #FFFFFF;
     width: 40px;
     text-align: center;
-    border: 1px solid #0088FF;
+    border: 1px solid #FFFFFF;
+}
+
+.custom-footer {
+    bottom: 0px !important;
+    position: fixed !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 100% !important;
+    color: #FFFFFF !important;
+    text-align: center !important;
+}
+
+.custom-footer p {
+    margin-top: 16px !important;
+    margin-bottom: 16px !important;
+}
+
+.custom-footer a {
+    color: #FFFFFF !important;
+    text-decoration: none !important;
 }

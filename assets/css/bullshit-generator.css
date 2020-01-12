@@ -6,10 +6,11 @@ body {
 h1 {
     font-weight: 400;
     margin-top: 0px;
+    color: #121212;
 }
 
-.container-sm {
-    background: #0088FF;
+.custom-container-sm {
+    background: #FFFFFF;
     color: #F4F4F4;
     width: 15%;
     margin: 100px auto 0px auto;
@@ -18,12 +19,12 @@ h1 {
     border-radius: 5px;
 }
 
-.container-lg {
+.custom-container-lg {
     background: #F4F4F4;
     width: 35%;
     height: 300px;
     margin: 100px auto 0px auto;
-    border: 1px solid #0088FF;
+    border: 1px solid #FFFFFF;
     border-radius: 5px;
     padding: 100px;
 }
@@ -33,9 +34,40 @@ button {
     height: 50px;
     font-size: 1em;
     letter-spacing: 1px;
-    background: #FFFFFF;
-    color: #0088FF;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    color: #FFFFFF;
+    background-color: #343A40;
+    border-color: #343A40;
+}
+  
+button:hover {
+    color: #FFFFFF;
+    background-color: #23272B;
+    border-color: #1D2124;
+}
+  
+button:focus {
+    box-shadow: none !important;
+}
+
+.custom-footer {
+    bottom: 0px !important;
+    position: fixed !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 100% !important;
+    color: #FFFFFF !important;
+    text-align: center !important;
+}
+
+.custom-footer p {
+    margin-top: 16px !important;
+    margin-bottom: 16px !important;
+}
+
+.custom-footer a {
+    color: #FFFFFF !important;
+    text-decoration: none !important;
 }
