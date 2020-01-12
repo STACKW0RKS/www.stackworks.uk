@@ -3,7 +3,7 @@
 // Dataset Of UNICODE Characters
 //=====================================================================================================
 
-//Characters Going Upwards
+// Characters Going Upwards
 var zalgo_up = [
     '\u030d', /*     ̍     */ '\u030e', /*     ̎     */ '\u0304', /*     ̄     */ '\u0305', /*     ̅     */
     '\u033f', /*     ̿     */ '\u0311', /*     ̑     */ '\u0306', /*     ̆     */ '\u0310', /*     ̐     */
@@ -20,7 +20,7 @@ var zalgo_up = [
     '\u0346', /*     ͆     */ '\u031a'  /*     ̚     */
 ];
 
-//Characters Staying In The Middle
+// Characters Staying In The Middle
 var zalgo_mid = [
     '\u0315', /*     ̕     */ '\u031b', /*     ̛     */ '\u0340', /*     ̀     */ '\u0341', /*     ́     */
     '\u0358', /*     ͘     */ '\u0321', /*     ̡     */ '\u0322', /*     ̢     */ '\u0327', /*     ̧     */
@@ -30,7 +30,7 @@ var zalgo_mid = [
     '\u0337', /*     ̷     */ '\u0361', /*     ͡     */ '\u0489'  /*     ҉_   */
 ];
 
-//Characters Going Downwards
+// Characters Going Downwards
 var zalgo_down = [
     '\u0316', /*     ̖     */ '\u0317', /*     ̗     */ '\u0318', /*     ̘     */ '\u0319', /*     ̙     */
     '\u031c', /*     ̜     */ '\u031d', /*     ̝     */ '\u031e', /*     ̞     */ '\u031f', /*     ̟     */
@@ -46,21 +46,21 @@ var zalgo_down = [
 
 //=====================================================================================================
 
-//Returns An Integer Between 0 (Zero) And 'max'
+// Returns An Integer Between 0 (Zero) And 'max'
 function rand(max) {
     return Math.floor(Math.random() * max);
 }
 
-//Returns A Random Zalgo Character From 'array' 
+// Returns A Random Zalgo Character From 'array' 
 function rand_zalgo(array) {
     var index = Math.floor(Math.random() * array.length);
     return array[index];
 }
 
-//Helper Functions
+// Helper Functions
 //=====================================================================================================
 
-//Show/Hide Element with ID 'id'
+// Show/Hide Element with ID 'id'
 function toggle(id) {
     if (document.getElementById(id).style.display == "none")
         document.getElementById(id).style.display = "block";
@@ -68,7 +68,7 @@ function toggle(id) {
         document.getElementById(id).style.display = "none";
 }
 
-//Assert Whether Character Is Zalgo Or Not
+// Assert Whether Character Is Zalgo Or Not
 function is_zalgo_char(char) {
     var i;
     for (i = 0; i < zalgo_up.length; i++)
@@ -83,7 +83,7 @@ function is_zalgo_char(char) {
     return false;
 }
 
-//Generate Zalgo Text
+// Generate Zalgo Text
 //=====================================================================================================
 function zalgo_textarea(id) {
     var p = document.getElementById(id);
@@ -99,10 +99,10 @@ function zalgo_textarea(id) {
         var num_mid;
         var num_down;
 
-        //Add Regular Character
+        // Add Regular Character
         newtxt += txt.substr(i, 1);
 
-        //Assert Effect Intensity
+        // Assert Effect Intensity
         if (document.getElementById('zalgo_opt_mini').checked) {
             num_up = rand(8);
             num_mid = rand(2);
@@ -117,7 +117,7 @@ function zalgo_textarea(id) {
             num_down = rand(64) / 4 + 3;
         }
 
-        //Add Zalgo Characters
+        // Add Zalgo Characters
         if (document.getElementById('zalgo_opt_up').checked)
             for (var j = 0; j < num_up; j++)
                 newtxt += rand_zalgo(zalgo_up);
@@ -129,12 +129,12 @@ function zalgo_textarea(id) {
                 newtxt += rand_zalgo(zalgo_down);
     }
 
-    //Remove Children Of 'zalgo_container'
+    // Remove Children Of 'zalgo_container'
     var container = document.getElementById('zalgo_container');
     while (container.childNodes.length)
         container.removeChild(container.childNodes[0]);
 
-    //Build Blocks For Each Line Of Text & Create <br> Elements
+    // Build Blocks For Each Line Of Text & Create <br> Elements
     var lines = newtxt.split("\n");
     for (var i = 0; i < lines.length; i++) {
         var n = document.createElement('text');
@@ -146,3 +146,13 @@ function zalgo_textarea(id) {
 }
 
 /* ]]> */
+
+function reset_options() {
+    document.getElementById('zalgo_opt_up').checked = false;
+    document.getElementById('zalgo_opt_mid').checked = true;
+    document.getElementById('zalgo_opt_down').checked = true;
+
+    document.getElementById('zalgo_opt_mini').checked = true;
+    document.getElementById('zalgo_opt_normal').checked = false;
+    document.getElementById('zalgo_opt_maxi').checked = false;
+}
