@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>CKEditor</title>
+
+    <meta charset="UTF-8">
+
+    <script src="https://cdn.ckeditor.com/4.13.1/full-all/ckeditor.js"></script>
+
+    <link rel="stylesheet" href="..\..\assets\css\lib\bootstrap-4.1.1.css">
+    <link rel="stylesheet" type="text/css" href="..\..\assets\css\ckeditor.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col panel">
+                <div class="ckeditor_container">
+                    <form>
+                        <textarea id="ckeditor" rows="10" cols="80"></textarea>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>CKEDITOR.replace('ckeditor');</script>
+</body>
+
+</html>

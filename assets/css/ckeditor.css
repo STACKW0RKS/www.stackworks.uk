@@ -1,0 +1,8 @@
+body {
+    overflow-y: scroll;
+    background: #121212;
+}
+
+.ckeditor_container {
+    margin-top: 10%;
+}
