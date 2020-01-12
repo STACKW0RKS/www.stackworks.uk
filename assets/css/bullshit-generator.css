@@ -1,5 +1,11 @@
 body {
     font-family: "Raleway", sans-serif;
+    background: #121212;
+}
+
+h1 {
+    font-weight: 400;
+    margin-top: 0px;
 }
 
 .container-sm {

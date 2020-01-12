@@ -2,6 +2,7 @@ body {
     font-family: "Raleway", sans-serif;
     overflow-y: scroll;
     padding-top: 10px;
+    background: #121212;
 }
 
 h1,
