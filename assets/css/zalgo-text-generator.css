@@ -1,3 +1,5 @@
+@import "../css/common/custom-footer.css";
+
 body {
     font-family: "Raleway", sans-serif;
     overflow-y: scroll;
@@ -96,24 +98,4 @@ table {
     width: 40px;
     text-align: center;
     border: 1px solid #FFFFFF;
-}
-
-.custom-footer {
-    bottom: 0px !important;
-    position: fixed !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    width: 100% !important;
-    color: #FFFFFF !important;
-    text-align: center !important;
-}
-
-.custom-footer p {
-    margin-top: 16px !important;
-    margin-bottom: 16px !important;
-}
-
-.custom-footer a {
-    color: #FFFFFF !important;
-    text-decoration: none !important;
 }

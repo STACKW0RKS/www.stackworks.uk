@@ -1,3 +1,5 @@
+@import "../css/common/custom-footer.css";
+
 body {
     font-family: "Raleway", sans-serif;
     background: #121212;
@@ -36,10 +38,10 @@ button {
     letter-spacing: 1px;
     border: none;
     border-radius: 5px;
+    border-color: #343A40;
     cursor: pointer;
     color: #FFFFFF;
     background-color: #343A40;
-    border-color: #343A40;
 }
   
 button:hover {
@@ -50,24 +52,4 @@ button:hover {
   
 button:focus {
     box-shadow: none !important;
-}
-
-.custom-footer {
-    bottom: 0px !important;
-    position: fixed !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    width: 100% !important;
-    color: #FFFFFF !important;
-    text-align: center !important;
-}
-
-.custom-footer p {
-    margin-top: 16px !important;
-    margin-bottom: 16px !important;
-}
-
-.custom-footer a {
-    color: #FFFFFF !important;
-    text-decoration: none !important;
 }
