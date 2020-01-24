@@ -3049,11 +3049,17 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   -webkit-transform: translateY(3rem);
   -ms-transform: translateY(3rem);
   transform: translateY(3rem);
-  -webkit-transition: opacity .5s .6s ease, -webkit-transform .5s .6s ease;
-  transition: opacity .5s .6s ease, -webkit-transform .5s .6s ease;
-  -o-transition: transform .5s .6s ease, opacity .5s .6s ease;
-  transition: transform .5s .6s ease, opacity .5s .6s ease;
-  transition: transform .5s .6s ease, opacity .5s .6s ease, -webkit-transform .5s .6s ease;
+  -webkit-transition: opacity .5s .6s ease,
+ -webkit-transform .5s .6s ease;
+  transition: opacity .5s .6s ease,
+ -webkit-transform .5s .6s ease;
+  -o-transition: transform .5s .6s ease,
+ opacity .5s .6s ease;
+  transition: transform .5s .6s ease,
+ opacity .5s .6s ease;
+  transition: transform .5s .6s ease,
+ opacity .5s .6s ease,
+ -webkit-transform .5s .6s ease;
   list-style: none;
   padding-left: 18%;
   padding-right: 100px;
@@ -24494,7 +24500,7 @@ a .h_head:hover {
 
 /*============== footer_dark_one css =============*/
 .footer_dark_one {
-  background: #15133a;
+  background: #281689;
 }
 
 .footer_dark_one .footer_top {
