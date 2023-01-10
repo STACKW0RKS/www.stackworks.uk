@@ -1,386 +1,196 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <!-- Meta Tags -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="author" content="Vlad Tănăsescu">
-
-    <!-- Make The Tab Pretty -->
-    <title>StackWorks&trade;</title>
-    <link rel="shortcut icon" href="assets/img/favicon/favicon-16x16.ico" type="image/x-icon">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="assets/css/vendor/bootstrap-4.4.1.css">
-    <link rel="stylesheet" href="assets/css/vendor/bootstrap-select-1.13.9.css">
-
-    <!-- Icons & Fonts CSS -->
-    <link rel="stylesheet" href="assets/css/vendor/fontawesome-all-5.12.0.css">
-    <link rel="stylesheet" href="assets/css/vendor/themify-icons-1.0.1.css">
-    <link rel="stylesheet" href="assets/css/vendor/elegant-icons-1.0.0.css">
-    <link rel="stylesheet" href="assets/css/vendor/animate-css-3.7.2.css">
-    <link rel="stylesheet" href="assets/css/vendor/owl-carousel-2.3.4.css">
-    <link rel="stylesheet" href="assets/css/vendor/magnific-popup-1.1.0.css">
-    <link rel="stylesheet" href="assets/css/vendor/jquery-nice-select-1.1.0.css">
-    <link rel="stylesheet" href="assets/css/vendor/malihu-custom-scrollbar-plugin-3.1.5.css">
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="assets/css/custom/stackworks.css">
-</head>
-
-<body>
-    <!-- Loading Animation -->
-    <div id="preloader">
-        <div id="ctn-preloader" class="ctn-preloader">
-            <div class="animation-preloader">
-                <div class="spinner"></div>
-                <div class="txt-loading">
-                    <span data-text-preloader="S" class="letters-loading">
-                        S
-                    </span>
-                    <span data-text-preloader="T" class="letters-loading">
-                        T
-                    </span>
-                    <span data-text-preloader="A" class="letters-loading">
-                        A
-                    </span>
-                    <span data-text-preloader="C" class="letters-loading">
-                        C
-                    </span>
-                    <span data-text-preloader="K" class="letters-loading">
-                        K
-                    </span>
-                    <span data-text-preloader="W" class="letters-loading">
-                        W
-                    </span>
-                    <span data-text-preloader="O" class="letters-loading">
-                        O
-                    </span>
-                    <span data-text-preloader="R" class="letters-loading">
-                        R
-                    </span>
-                    <span data-text-preloader="K" class="letters-loading">
-                        K
-                    </span>
-                    <span data-text-preloader="S" class="letters-loading">
-                        S
-                    </span>
-                    <span data-text-preloader="&trade;" class="letters-loading">
-                        &trade;
-                    </span>
-                </div>
-                <p class="text-center">Loading</p>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="StackWorks™ Website" />
+        <meta name="author" content="Vlad Tănăsescu" />
+        <title>StackWorks™</title>
+        <!-- Favicon -->
+        <link rel="icon" type="image/x-icon" href="assets/favicon/favicon-16x16.ico"" />
+        <!-- Font Awesome Icons (Free Version) -->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Simple Line Icons -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core Theme CSS (Includes Bootstrap) -->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation -->
+        <a class="menu-toggle rounded" href="#"><i class="fas fa-bars"></i></a>
+        <nav id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand"><a href="#page-top">Start Bootstrap</a></li>
+                <li class="sidebar-nav-item"><a href="#page-top">Home</a></li>
+                <li class="sidebar-nav-item"><a href="#about">About</a></li>
+                <li class="sidebar-nav-item"><a href="#services">Services</a></li>
+                <li class="sidebar-nav-item"><a href="#portfolio">Portfolio</a></li>
+                <li class="sidebar-nav-item"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- Header -->
+        <header class="masthead d-flex align-items-center">
+            <div class="container px-4 px-lg-5 text-center">
+                <h1 class="mb-1">Stylish Portfolio</h1>
+                <h3 class="mb-5"><em>A Free Bootstrap Theme by Start Bootstrap</em></h3>
+                <a class="btn btn-primary btn-xl" href="#about">Find Out More</a>
             </div>
-            <div class="loader">
-                <div class="row">
-                    <div class="col-3 loader-section section-left">
-                        <div class="bg"></div>
-                    </div>
-                    <div class="col-3 loader-section section-left">
-                        <div class="bg"></div>
-                    </div>
-                    <div class="col-3 loader-section section-right">
-                        <div class="bg"></div>
-                    </div>
-                    <div class="col-3 loader-section section-right">
-                        <div class="bg"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Web Page Body -->
-    <div class="body_wrapper">
-        <header class="header_area">
-            <!-- Navigation Bar -->
-            <nav class="navbar navbar-expand-lg menu_one menu_five">
-                <div class="container">
-
-                    <!-- Logo -->
-                    <a class="navbar-brand sticky_logo" href="https://www.stackworks.online/">
-                        <img src="assets\img\logo\sw-logo-light-small.png" srcset="assets\img\logo\sw-logo-light-small.png 1.5x" alt="StackWorks&trade;">
-                        <img src="assets\img\logo\sw-logo-dark-small.png" srcset="assets\img\logo\sw-logo-dark-small.png 1.5x" alt="StackWorks&trade;">
-                    </a>
-
-                    <!-- Hamburger Menu -->
-                    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="menu_toggle">
-                            <span class="hamburger">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </span>
-                            <span class="hamburger-cross">
-                                <span></span>
-                                <span></span>
-                            </span>
-                        </span>
-                    </button>
-
-                    <!-- Navigation Buttons -->
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav menu w_menu mr-0 ml-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html" role="button">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="modules/blog/dashboard.html" role="button">Blog</a>
-                            </li>
-                            <li class="nav-item submenu">
-                                <a class="nav-link" href="#" role="button" aria-haspopup="true" aria-expanded="false">Fun Stuff</a>
-                                <ul class="dropdown-menu">
-                                    <li class="nav-item"><a href="modules/fun-stuff/zalgo-text-generator.html" class="nav-link">Zalgo Text Generator</a></li>
-                                    <li class="nav-item"><a href="modules/fun-stuff/bullshit-generator.html" class="nav-link">Bullshit Generator</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item submenu">
-                                <a class="nav-link" href="#" role="button" aria-haspopup="true" aria-expanded="false">Tools</a>
-                                <ul class="dropdown-menu">
-                                    <li class="nav-item"><a href="modules/testing-grounds/dashboard.html" class="nav-link">StackWorks&trade; Testing Grounds</a></li>
-                                    <li class="nav-item"><a href="modules/tools/ckeditor.html" class="nav-link">HTML Text Editor</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
         </header>
-
-        <section class="software_banner_area d-flex align-items-center">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 d-flex align-items-center">
-                        <div class="software_banner_content">
-                            <h2 class="f_500 f_size_50 w_color wow fadeInLeft" data-wow-delay="0.2s">We deliver the <span class="f_700">software</span> you need, so you can focus on the heavy lifting.</h2>
-                            <p class="w_color f_size_18 l_height30 mt_30 wow fadeInLeft" data-wow-delay="0.4s">StackWorks&trade; offers bespoke pro-bono software solutions to charitable organizations and to NGOs with a focus on social and political issues. Our services range from static websites to complex web applications.</p>
-                            <p class="w_color f_size_18 l_height30 mt_30 wow fadeInLeft" data-wow-delay="0.4s">The StackWorks&trade; brand is also a platform for promoting a range of open-source projects, for educational purposes.</p>
-                            <div class="action_btn d-flex align-items-center mt_40 wow fadeInLeft" data-wow-delay="0.6s">
-                                <a href="#" class="software_banner_btn">Get In Touch</a>
-                                <a href="https://www.youtube.com/watch?v=G1cjHbXdU0s" class="video_btn popup-youtube">
-                                    <div class="icon"><i class="ti-control-play"></i></div><span>Watch Video</span>
-                                </a>
+        <!-- About -->
+        <section class="content-section bg-light" id="about">
+            <div class="container px-4 px-lg-5 text-center">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-10">
+                        <h2>Stylish Portfolio is the perfect theme for your next project!</h2>
+                        <p class="lead mb-5">
+                            This theme features a flexible, UX friendly sidebar menu and stock photos from our friends at
+                            <a href="https://unsplash.com/">Unsplash</a>
+                            !
+                        </p>
+                        <a class="btn btn-dark btn-xl" href="#services">What We Offer</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Services -->
+        <section class="content-section bg-primary text-white text-center" id="services">
+            <div class="container px-4 px-lg-5">
+                <div class="content-section-heading">
+                    <h3 class="text-secondary mb-0">Services</h3>
+                    <h2 class="mb-5">What We Offer</h2>
+                </div>
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-screen-smartphone"></i></span>
+                        <h4><strong>Responsive</strong></h4>
+                        <p class="text-faded mb-0">Looks great on any screen size!</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-pencil"></i></span>
+                        <h4><strong>Redesigned</strong></h4>
+                        <p class="text-faded mb-0">Freshly redesigned for Bootstrap 5.</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-like"></i></span>
+                        <h4><strong>Favorited</strong></h4>
+                        <p class="text-faded mb-0">
+                            Millions of users
+                            <i class="fas fa-heart"></i>
+                            Start Bootstrap!
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-mustache"></i></span>
+                        <h4><strong>Question</strong></h4>
+                        <p class="text-faded mb-0">I mustache you a question...</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Callout -->
+        <section class="callout">
+            <div class="container px-4 px-lg-5 text-center">
+                <h2 class="mx-auto mb-5">
+                    Welcome to
+                    <em>your</em>
+                    next website!
+                </h2>
+                <a class="btn btn-primary btn-xl" href="https://startbootstrap.com/theme/stylish-portfolio/">Download Now!</a>
+            </div>
+        </section>
+        <!-- Portfolio -->
+        <section class="content-section" id="portfolio">
+            <div class="container px-4 px-lg-5">
+                <div class="content-section-heading text-center">
+                    <h3 class="text-secondary mb-0">Portfolio</h3>
+                    <h2 class="mb-5">Recent Projects</h2>
+                </div>
+                <div class="row gx-0">
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="#!">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h2">Stationary</div>
+                                    <p class="mb-0">A yellow pencil with envelopes on a clean, blue backdrop!</p>
+                                </div>
                             </div>
-                        </div>
+                            <img class="img-fluid" src="assets/img/portfolio-1.jpg" alt="..." />
+                        </a>
                     </div>
                     <div class="col-lg-6">
-                        <div class="software_img wow fadeInRight" data-wow-delay="0.2s">
-                            <img src="img/home5/banner_img.png" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="software_featured_area">
-            <div class="container">
-                <h2 class="f_600 f_size_30 t_color3 text-center l_height40 mb_70 wow fadeInUp" data-wow-delay="0.3s">Rapidly provision one to thousands of<br> Droplets in seconds</h2>
-                <div class="row software_featured_info">
-                    <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="software_featured_item text-center mb_20">
-                            <div class="s_icon">
-                                <img src="img/home5/icon_shape.png" alt="">
-                                <img class="icon" src="img/home5/icon1.png" alt="">
-                            </div>
-                            <h3 class="f_600 t_color3">Build better apps faster</h3>
-                            <p class="f_400 f_size_15 mb-30">Crikey blow off chap knackered gosh bobby geeza gormless well, Charles cheeky bugger I cor blimey guvnor hanky panky jolly good.</p>
-                            <a href="#" class="learn_btn">Learn More</a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="software_featured_item text-center mb_20">
-                            <div class="s_icon">
-                                <img src="img/home5/icon_shape.png" alt="">
-                                <img class="icon" src="img/home5/icon2.png" alt="">
-                            </div>
-                            <h3 class="f_600 t_color3">Predictable pricing</h3>
-                            <p class="f_400 f_size_15 mb-30">Crikey blow off chap knackered gosh bobby geeza gormless well, Charles cheeky bugger I cor blimey guvnor hanky panky jolly good.</p>
-                            <a href="#" class="learn_btn">Learn More</a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
-                        <div class="software_featured_item text-center mb_20">
-                            <div class="s_icon">
-                                <img src="img/home5/icon_shape.png" alt="">
-                                <img class="icon" src="img/home5/icon3.png" alt="">
-                            </div>
-                            <h3 class="f_600 t_color3">Secure and reliable</h3>
-                            <p class="f_400 f_size_15 mb-30">Crikey blow off chap knackered gosh bobby geeza gormless well, Charles cheeky bugger I cor blimey guvnor hanky panky jolly good.</p>
-                            <a href="#" class="learn_btn">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="software_featured_area_two sec_pad">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="software_featured_img wow fadeInLeft" data-wow-delay="0.2s">
-                            <img class="img-fluid" src="img/home5/featured_img1.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-lg-5 offset-lg-1 d-flex align-items-center pl-0">
-                        <div class="software_featured_content">
-                            <h2 class="f_700 f_size30 l_height_40 w_color f_p mb-30 wow fadeInRight" data-wow-delay="0.2s">We love building meaningful and useful software products</h2>
-                            <p class="w_color f_400 mb_50 wow fadeInRight" data-wow-delay="0.4s">Tickety-boo cheers plastered twit chimney pot off his nut hotpot spend a penny have it, so I said squiffy A bit of how's your father mufty pukka knees up
-                                absolutely bladdered brown bread, James Bond boot spiffing ummm I'm telling vagabond arse over tit burke.</p>
-                            <a href="#" class="btn_hover btn_four wow fadeInRight" data-wow-delay="0.6s">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="developer_product_area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 d-flex align-items-center">
-                        <div class="developer_product_content">
-                            <h2 class="f_600 f_size_30 l_height30 t_color3 mb_50 wow fadeInUp" data-wow-delay="0.2s">Developers first</h2>
-                            <ul class="nav nav-tabs develor_tab mb-30" id="myTab2" role="tablist">
-                                <li class="nav-item">
-                                    <a class="nav-link active" data-tab="tab_one" id="ruby-tab" data-toggle="tab" href="#ruby" role="tab" aria-controls="ruby" aria-selected="true">Ruby </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" data-tab="tab_two" id="curl-tab" data-toggle="tab" href="#curl" role="tab" aria-controls="curl" aria-selected="false"> Curl</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" data-tab="tab_three" data-toggle="tab" href="#resize" role="tab" aria-controls="resize" aria-selected="true">Resize</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" data-tab="tab_four" id="doctl-tab" data-toggle="tab" href="#doctl" role="tab" aria-controls="doctl" aria-selected="false">Doctl</a>
-                                </li>
-                            </ul>
-                            <div class="tab-content developer_tab_content">
-                                <div class="tab-pane fade show active" id="ruby" role="tabpanel" aria-labelledby="ruby-tab">
-                                    <p class="mb_40">Tickety-boo cheers plastered twit chimney pot off his nut hotpot spend a penny have it, so I said squiffy A bit of how's your father mufty pukka knees up absolutely bladdered brown bread, James
-                                        Bond boot spiffing ummm I'm telling vagabond arse over tit burke. He lost his bottle mush old spend a penny wellies gormless bite.!</p>
-                                    <a href="#" class="details_btn">API Documentation</a>
-                                </div>
-                                <div class="tab-pane fade" id="curl" role="tabpanel" aria-labelledby="curl-tab">
-                                    <p class="mb_40">Cheers plastered twit chimney pot off his nut hotpot spend a penny have it, so I said squiffy A bit of how's your father mufty pukka knees up absolutely bladdered brown bread, James Bond boot
-                                        spiffing ummm I'm telling vagabond arse over tit burke. He lost his bottle mush old spend a penny wellies gormless bite.!</p>
-                                    <a href="#" class="details_btn">API Documentation</a>
-                                </div>
-                                <div class="tab-pane fade" id="resize" role="tabpanel" aria-labelledby="resize-tab">
-                                    <p class="mb_40">Tickety-boo cheers plastered twit chimney pot off his nut hotpot spend a penny have it, so I said squiffy A bit of how's your father mufty pukka knees up absolutely bladdered brown bread, James
-                                        Bond boot spiffing ummm I'm telling vagabond arse over tit burke. He lost his bottle mush old spend a penny wellies gormless bite.!</p>
-                                    <a href="#" class="details_btn">API Documentation</a>
-                                </div>
-                                <div class="tab-pane fade" id="doctl" role="tabpanel" aria-labelledby="doctl-tab">
-                                    <p class="mb_40">Tickety-boo cheers plastered twit chimney pot off his nut hotpot spend a penny have it, so I said squiffy A bit of how's your father mufty pukka knees up absolutely bladdered brown bread, James
-                                        Bond boot spiffing ummm I'm telling vagabond arse over tit burke. He lost his bottle mush old spend a penny wellies gormless bite.!</p>
-                                    <a href="#" class="details_btn">API Documentation</a>
+                        <a class="portfolio-item" href="#!">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h2">Ice Cream</div>
+                                    <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
                                 </div>
                             </div>
-                        </div>
+                            <img class="img-fluid" src="assets/img/portfolio-2.jpg" alt="..." />
+                        </a>
                     </div>
                     <div class="col-lg-6">
-                        <div class="tab_img_info">
-                            <div class="tab_img active" id="tab_one">
-                                <img class="img-fluid wow fadeInRight" data-wow-delay="0.4s" src="img/home5/php.jpg" alt="">
+                        <a class="portfolio-item" href="#!">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h2">Strawberries</div>
+                                    <p class="mb-0">Strawberries are such a tasty snack, especially with a little sugar on top!</p>
+                                </div>
                             </div>
-                            <div class="tab_img" id="tab_two">
-                                <img class="img-fluid wow fadeInRight" data-wow-delay="0.4s" src="img/home5/01.jpg" alt="">
+                            <img class="img-fluid" src="assets/img/portfolio-3.jpg" alt="..." />
+                        </a>
+                    </div>
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="#!">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h2">Workspace</div>
+                                    <p class="mb-0">A yellow workspace with some scissors, pencils, and other objects.</p>
+                                </div>
                             </div>
-                            <div class="tab_img" id="tab_three">
-                                <img class="img-fluid wow fadeInRight" data-wow-delay="0.4s" src="img/home5/02.jpg" alt="">
-                            </div>
-                            <div class="tab_img" id="tab_four">
-                                <img class="img-fluid wow fadeInRight" data-wow-delay="0.4s" src="img/home5/03.jpg" alt="">
-                            </div>
-                        </div>
+                            <img class="img-fluid" src="assets/img/portfolio-4.jpg" alt="..." />
+                        </a>
                     </div>
                 </div>
             </div>
         </section>
-
-        <footer class="footer_area footer_dark_one">
-            <!-- Top Footer -->
-            <div class="footer_top">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-4 col-md-4 col-sm-12">
-                            <div class="f_widget dark_widget company_widget wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
-                                <a href="index.html" class="f-logo"><img src="assets\img\logo\sw-logo-light-small.png" srcset="assets\img\logo\sw-logo-light-small.png 1.5x" alt="StackWorks&trade;"></a>
-                                <div class="widget-wrap">
-                                    <p class="f_400 f_p f_size_15 mb-0 l_height34"><span class="pl-0">Email:</span> <a href="mailto:stackworks@protonmail.com" class="f_400">stackworks@protonmail.com</a></p>
-                                    <p class="f_400 f_p f_size_15 mb-0 l_height34"><span class="pl-0">Phone:</span> <a href="tel:+447704369872" class="f_400">(+44) 07704 369 872</a></p>
-                                </div>
-                                <div class="f_widget social-widget mt_30">
-                                    <div class="f_social_icon">
-                                        <a href="#" class="ti-facebook"></a>
-                                        <a href="#" class="ti-twitter-alt"></a>
-                                        <a href="#" class="ti-vimeo-alt"></a>
-                                        <a href="#" class="ti-pinterest"></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-12">
-                            <div class="f_widget dark_widget about-widget pl_70 wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
-                                <h3 class="f-title f_600 t_color f_size_18 mb_40 text-right">Some Long Title Goes Here</h3>
-                                <ul class="list-unstyled f_list text-right">
-                                    <li><a href="#">Long TexT Looks Nice</a></li>
-                                    <li><a href="#">When It's Justified To The Right</a></li>
-                                    <li><a href="#">On This Particular Footer</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-12">
-                            <div class="f_widget dark_widget about-widget pl_70 wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
-                                <h3 class="f-title f_600 t_color f_size_18 mb_40 text-right">Some Long Title Goes Here</h3>
-                                <ul class="list-unstyled f_list text-right">
-                                    <li><a href="#">Long TexT Looks Nice</a></li>
-                                    <li><a href="#">When It's Justified To The Right</a></li>
-                                    <li><a href="#">On This Particular Footer</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <!-- Call To Action -->
+        <section class="content-section bg-primary text-white">
+            <div class="container px-4 px-lg-5 text-center">
+                <h2 class="mb-4">The buttons below are impossible to resist...</h2>
+                <a class="btn btn-xl btn-light me-4" href="#!">Click Me!</a>
+                <a class="btn btn-xl btn-dark" href="#!">Look at Me!</a>
             </div>
-
-            <!-- Bottom Footer -->
-            <div class="footer_bottom dark_f_bottom">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-lg-6 col-md-5 col-sm-12 pr-0">
-                            <p class="mb-0 f_400">Copyright &copy; 2020 <a href="https://www.stackworks.online/">StackWorks&trade;</a></p>
-                        </div>
-                        <div class="col-lg-6 col-md-4 col-sm-12">
-                            <ul class="list-unstyled f_menu text-right">
-                                <li><a href="#">Terms of Use</a></li>
-                                <li><a href="#">Privacy Policy</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+        </section>
+        <!-- Map -->
+        <div class="map" id="contact">
+            <iframe src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
+            <br />
+            <small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a></small>
+        </div>
+        <!-- Footer -->
+        <footer class="footer text-center">
+            <div class="container px-4 px-lg-5">
+                <ul class="list-inline mb-5">
+                    <li class="list-inline-item">
+                        <a class="social-link rounded-circle text-white mr-3" href="#!"><i class="icon-social-facebook"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="social-link rounded-circle text-white mr-3" href="#!"><i class="icon-social-twitter"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="social-link rounded-circle text-white" href="#!"><i class="icon-social-github"></i></a>
+                    </li>
+                </ul>
+                <p class="text-muted small mb-0">Copyright &copy; Your Website 2022</p>
             </div>
         </footer>
-    </div>
-
-    <!-- Vendor Scripts -->
-    <!-- jQuery First, Then Popper.JS, Then Bootstrap -->
-    <script src="assets/js/vendor/jquery-3.4.1.js"></script>
-    <script src="assets/js/vendor/popper-umd-1.16.0.js"></script>
-    <script src="assets/js/vendor/bootstrap-4.4.1.js"></script>
-    <script src="assets/js/vendor/bootstrap-select-1.13.9.js"></script>
-    <script src="assets/js/vendor/fontawesome-all-5.12.0.js"></script>
-    <script src="assets/js/vendor/wow-1.3.0.js"></script>
-    <script src="assets/js/vendor/skrollr-0.6.30.js"></script>
-    <script src="assets/js/vendor/owl-carousel-2.3.4.js"></script>
-    <script src="assets/js/vendor/jquery-nice-select-1.1.0.js"></script>
-    <script src="assets/js/vendor/imagesloaded-packaged-4.1.4.js"></script>
-    <script src="assets/js/vendor/isotope-packaged-3.0.6.js"></script>
-    <script src="assets/js/vendor/magnific-popup-1.1.0.js"></script>
-    <script src="assets/js/vendor/malihu-custom-scrollbar-plugin-3.1.5.js"></script>
-
-    <!-- Custom Scripts -->
-    <script src="assets/js/custom/stackworks.js"></script>
-</body>
-
+        <!-- Scroll To Top Button -->
+        <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
+        <!-- Bootstrap Core JavaScript -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core Theme JavaScript -->
+        <script src="js/scripts.js"></script>
+    </body>
 </html>
