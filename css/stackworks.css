@@ -24,3 +24,7 @@ footer .footer_top {
 footer .footer_top, footer .footer_bottom {
   background-color: #3033b0;
 }
+
+#current-year {
+  padding: 0;
+}
