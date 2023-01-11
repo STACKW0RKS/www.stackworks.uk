@@ -1,0 +1,26 @@
+#navbarSupportedContent {
+  background: transparent;
+}
+
+section.software_featured_area {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+section.developer_product_area {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.footer_bottom ul {
+  text-align: right;
+  list-style-position: inside;
+}
+
+footer .footer_top {
+  border-width: 0;
+}
+
+footer .footer_top, footer .footer_bottom {
+  background-color: #3033b0;
+}
