@@ -1,5 +1,36 @@
-#navbarSupportedContent {
+#navbar-menu {
   background: transparent;
+  overflow: hidden;
+}
+
+#navbar-menu.show {
+  margin-top: 15px;
+  transition: margin-top 0.25s ease-in !important;
+}
+
+#navbar-menu.show a {
+  margin-right: 10px;
+  transition: margin-right 0.25s ease-in !important;
+}
+
+#navbar-menu, #navbar-menu a {
+  transition: 0.1s ease-in !important;
+}
+
+header:not(.navbar_fixed) #navbar-menu.show a {
+  color: white;
+  border-color: white;
+  background: transparent;
+}
+
+header:not(.navbar_fixed) #navbar-menu.show a:hover {
+  color: #3d64f4;
+  border-color: white;
+  background-color: white;
+}
+
+header:not(.navbar_fixed) #to-the-top {
+  display: none;
 }
 
 section.software_featured_area {
@@ -35,7 +66,7 @@ footer .footer_bottom {
 }
 
 .footer-link:hover {
-  color: midnightblue !important;
+  color: #99ccff !important;
   transition: color 0.2s ease-in !important;
 }
 
